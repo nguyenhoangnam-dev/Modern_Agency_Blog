@@ -1,0 +1,42 @@
+.fira {
+  &_regular {
+    font-family: "Fira sans", sans-serif;
+    font-weight: 400;
+  }
+
+  &_medium {
+    font-family: "Fira sans", sans-serif;
+    font-weight: 500;
+  }
+
+  &_bold {
+    font-family: "Fira sans", sans-serif;
+    font-weight: 700;
+  }
+}
+
+.size {
+  &_tiny {
+    font-size: 13px;
+  }
+
+  &_small {
+    font-size: 14px;
+  }
+
+  &_regular {
+    font-size: 15px;
+  }
+
+  &_medium {
+    font-size: 18px;
+  }
+
+  &_big {
+    font-size: 21px;
+  }
+
+  &_huge {
+    font-size: 30px;
+  }
+}

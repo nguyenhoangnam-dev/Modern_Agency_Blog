@@ -8,7 +8,7 @@
     "push": "git push origin master",
     "ad": "yarn gitadd && yarn sta"
   },
-  "repository": "https://github.com/congviec18120062/basic_setup",
+  "repository": "https://github.com/congviec18120062/Modern_Agency_Blog",
   "author": "H Nam <congviec18120062@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -34,5 +34,6 @@
     "gulp-uglify": "^3.0.2",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0"
-  }
+  },
+  "description": "This is theme for story hub"
 }

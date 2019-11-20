@@ -1,9 +1,21 @@
 @font-face {
-  font-family: "Roboto";
-  src: url('../font/Roboto-Medium.ttf');
+  font-family: "Fira Sans";
+  font-style: normal;
+	font-weight: 400;
+	src: url("../../font/FiraSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Rale";
-  src: url('../font/Raleway-Bold.ttf');
+  font-family: "Fira Sans";
+  font-style: normal;
+	font-weight: 500;
+	src: url("../../font/FiraSans-Medium.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+	font-weight: 700;
+	src: url("../../font/FiraSans-Bold.ttf") format("truetype");
+}
+
