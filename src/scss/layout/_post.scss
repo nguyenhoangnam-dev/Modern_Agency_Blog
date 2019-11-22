@@ -1,0 +1,63 @@
+.post {
+  padding: {
+    top: 120px;
+    bottom: 120px;
+  }
+  &_container {
+    width: 1170px;
+    grid-column-gap: 40px;
+    grid-row-gap: 100px;
+
+  }
+
+  &_item {
+    width: (1170px - 40px)/2;
+    &-image {
+      box-shadow: 0px 17px 24px -14px rgba(0,0,0,0.75);
+
+      img {
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+
+    &-tags {
+      padding: {
+        bottom: 18px;
+        top: 30px;
+      }
+    }
+
+    &-title {
+      line-height: 32px;
+      padding-bottom: 8px;
+    }
+
+    &-content {
+      line-height: 30px;
+
+    }
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &_button {
+    margin-top: 130px;
+    padding: {
+      left: 30px;
+      right: 30px;
+      top: 15px;
+      bottom: 15px;
+    }
+    color: white;
+    background-color: black;
+    display: inline-block;
+
+  }
+
+  .item-tag {
+    padding-right: 30px;
+  }
+}

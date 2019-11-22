@@ -2,6 +2,9 @@
   display: flex;
 
   &_row {
+    display: flex;
+    justify-content: flex-start;
+
     &-between {
       display: flex;
       justify-content: space-between;

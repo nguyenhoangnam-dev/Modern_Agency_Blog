@@ -1,0 +1,23 @@
+.header {
+  &-mid {
+    padding: {
+      left: 75px;
+      right: 75px;
+      top: 41px;
+      bottom: 29px;
+    }
+  }
+
+  &_center {
+    width: 100%;
+    &-item {
+
+      color: $mine_shaft;
+      margin-right: 63px;
+    }
+  }
+
+  #search {
+    width: 20px;
+  }
+}

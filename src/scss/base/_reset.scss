@@ -7,8 +7,8 @@ html, body {
     family: "Fira Sans", sans-serif;
     weight: 400;
     size: 15px;
-    color: $black;
   }
+  color: $black;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
 }
@@ -17,4 +17,21 @@ html, body {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 }

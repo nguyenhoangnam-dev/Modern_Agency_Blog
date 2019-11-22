@@ -40,3 +40,13 @@
     font-size: 30px;
   }
 }
+
+.color {
+  &_pink {
+    color: $razzmatazz;
+  }
+
+  &_grey {
+    color: $mine_shaft;
+  }
+}

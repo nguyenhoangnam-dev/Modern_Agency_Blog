@@ -1,0 +1,12 @@
+.footer {
+  height: 80px;
+  text-align: center;
+
+  a {
+    cursor: pointer;
+
+    &:hover {
+      color: $razzmatazz;
+    }
+  }
+}

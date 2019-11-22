@@ -1,0 +1,43 @@
+.banner {
+  background: {
+    image: url("../../img/banner.jpg");
+    size: cover;
+    position: center;
+  }
+  height: 125%;
+
+  &-center {
+    width: 1170px;
+  }
+
+  &_content {
+    background-color: white;
+    padding: 45px;
+    display: inline-block;
+    border-radius: 5px;
+
+    &-item {
+      margin-top: 30px;
+    }
+  }
+
+  &_item {
+    &-image {
+      img {
+        width: 90px;
+      }
+      margin-right: 15px;
+    }
+
+    &-title {
+      padding-bottom: 14px;
+    }
+  }
+
+  &_tag {
+    &-item {
+      padding-right: 30px;
+      color: $razzmatazz;
+    }
+  }
+}
